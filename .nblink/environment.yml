@@ -1,0 +1,11 @@
+name: default-environment
+channels:
+  - emscripten-forge
+  - conda-forge
+dependencies:
+  # A Jupyter kernel for Python
+  - xeus-python
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy

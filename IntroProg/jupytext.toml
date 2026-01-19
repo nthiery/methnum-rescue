@@ -1,0 +1,19 @@
+# This file configures which notebook or cell metadata is kept or
+# discarded upon saving a file with jupytext / jupyter lab.
+#
+# - discard jupytext.text_representation.jupytext_version: including
+#   the jupytext version in the metadata adds no value and causes
+#   conflicts.
+#
+# - discard Rise / slideshow metadata: for now, and since we have no
+#   slides yet in our material, these metadata are removed, as
+#   JupyterLab sometimes tends to reinsert them
+#
+# - keep learning metadata: this is used in certain notebooks for
+#   specifying learning objectives, etc.
+#
+# - discard cell metadata that describes the transient state of the
+#   notebook
+
+notebook_metadata_filter="kernelspec,jupytext,exports,math,rise,learning,jupylates,-jupytext.text_representation.jupytext_version,title,options"
+cell_metadata_filter="all,-autoscroll,-collapsed,-scrolled,-trusted,-ExecuteTime,-jp-MarkdownHeadingCollapsed,-user_expressions,-execution"
