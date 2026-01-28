@@ -9,7 +9,7 @@ dependencies:
   - pandas
   - matplotlib
   - scipy
-  - jupyterlab-myst
-  # - jupyterlab-slideshow
+  # - jupyterlab-slideshow # required httpcore
   - pip:
     - laby-jupyter-python
+    - jupyterlab-myst >= 2.6 # depends on jupyter-server if specified as conda package
