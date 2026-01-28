@@ -10,6 +10,6 @@ dependencies:
   - matplotlib
   - scipy
   - jupyterlab-myst
-  - jupyterlab-slideshow
+  # - jupyterlab-slideshow
   - pip:
     - laby-jupyter-python
